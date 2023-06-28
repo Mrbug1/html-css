@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertigo.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="asserts/logo~2.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="page" class="flex">
+        <div>
+            <header>
+                <img src="asserts/logo.png" alt="Logo">
+            </header>
+            <main>
+                <div class="headliner">
+                    <h1>Acese a plataforma</h1>
+                    <p>
+                        Faça login ou registre-se para começar a construir seus projetos ainda hoje.
+                    </p>
+                </div>
+                <form>
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+
+                        <input class="teste" id="email" type="email" required
+                        placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <div class="label-wrapper flex">
+
+                            <label for="senha">
+                                senha
+                            </label>
+                            <a href="#">Esqueçeu a senha?</a>
+                        </div>
+                        <input type="password" class="teste" id="senha" placeholder="Digite sua senha">
+
+                        <img
+                         onclick="togglePassword()" 
+                         class="eye" 
+                         src="asserts/eyes-off.png" 
+                         alt="olho fechado"
+                        />
+                        <img 
+                         onclick="togglePassword()"
+                         class="eye hide" 
+                         src="asserts/eyes-on.png" 
+                         alt="olho aberto"
+                        />
+                    </div>
+
+
+                    <button type="submit">Entrar</button>
+                    <div class="create-account">
+                        Ainda não tem conta?
+                        <a href="#">
+                            inscreva-se
+                        </a>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <img src="asserts/fundo.jpg" alt="Imagem de fundo">
+    </div>
+</body>
+<script>
+
+    function togglePassword() {
+        senha = document.getElementById("senha")
+        document
+            .querySelector(".eye")
+            .forEach((eye) => eye.classList.toggle("hide")) 
+
+        const type = 
+            senha.getAttribute("type") == 
+            "password" ? 'text' : 'password'   
+        senha.setAttribute("type", type) 
+    }
+
+</script>
+</html>

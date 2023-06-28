@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'android';
+    src: url(fonts/idroid/IDroid\ Bold.otf) format(truetype);
+}
+
+body {
+    background-color: #89CDA5;
+    position: static;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+section#cabecario {
+    background-image: linear-gradient(to bottom, #00A461, #008950, #006B3C, #004F28, #004120);
+    width: 100%;
+    height: 160px;
+    padding: 5px;
+    
+}
+
+p#ajuste {
+    font-size: 18px;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu:hover {
+    background-color: #5CBE7D;
+}
+
+.imgs {
+    text-align: center;
+    margin: auto;
+}
+
+.detalhe {
+    color: #004120;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#links:hover {
+    background-color: #006B3C;
+    color: #ffffff;
+    width: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #295A37;
+    font-family: 'android';
+    text-align: center;
+}
+
+h1#title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+section#principal{
+    background-color: #ffffff;
+    padding: 10px 30px 10px;
+    width: 1000px;
+    margin: auto; 
+}
+
+p {
+    padding: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+p#conteudo{
+    color: black;
+    text-indent: 45px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 0, 0, 20
+}
+
+
+h2#subtitle {
+    font-size: 30px;
+    color: #295A37;
+    background-image: linear-gradient(to right, #89CDA5, #AEDDC3, #D9EFE4, #F3FAF7, #ffff);
+    border-radius: 10px;
+    text-indent: 45px;
+    font-family: 'android';
+}
+
+
+a#links{
+    color: #295A37;
+    padding: 10px;
+    align-self: start;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+a {
+    color: white;
+    padding: 10px;
+    align-self: start;
+    font-size: 18px;
+}
+
+img#android {
+    align-items: center;
+}
+
+section#cabeça {
+    background-color: #008950;
+    padding: 2px;
+}
+
+p#mais {
+    font-size: 20px;
+}
+
+div#kkkk{
+    height: 38px;
+    width: 1000px;
+    background-color: #448653;
+    box-shadow: 0.2em 0em 0.2em #0000007c;
+    font-weight: normal;
+    margin-bottom: -18px;
+}
+
+section#subprincipal {
+    padding-bottom: 0px;
+    background-color:#C5EBD6;
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0.1em 0.1em 0.2em #0000007c;
+}
+
+div#video{
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    background-color: #004F28;
+}
+
+p#menufinal {
+    color: #000000;
+    font-size: 17px;
+    text-align: left;
+    text-indent: 40px;
+}
+
+div#areafinal {
+    height: 34px;
+    width: 2800px;
+    background-color: #295A37;
+    margin-bottom: -25px;
+}
+
+p#aj1 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+p#fim {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+a#link2 {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px
+}
+
+#link2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+html, body{
+    margin:0px !important;
+    padding: 0px !important;
+ }

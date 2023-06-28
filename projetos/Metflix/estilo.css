@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-family: 'Netflix Sans', 'Helvetica Neue';
+}
+
+@font-face {
+    font-family: 'Metflix';
+    src: url(fonts/NetflixSans-Regular.otf) format('opentype');
+}
+
+
+body {
+    background-image: url(asserts/full.png);
+    font-size: 1.6rem;
+    
+}
+
+section {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 5px;
+    padding: 60px 25px 70px;
+    width: 400px;
+    margin: auto;
+}
+
+h1#logo{
+    padding: 10px 30px 20px;
+    font-family: 'Metflix';
+    color: #E50A15;
+}
+
+h2#titulo {
+    text-align: start;
+    font-family: 'Metflix';
+    color: #ffffff;
+    padding: 0px 50px 24px;
+    font-size: 35px
+}
+
+
+input{
+    padding: 2px 0px 2px;
+    width:300px;
+    height: 55px;
+    border: none;
+    background-color: #333333;
+
+}
+
+
+input#entrar {
+    background-color: red;
+    margin: 24px 0px 12px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    color: #ffffff;
+}
+
+input#lb{
+    text-align: left;
+    width: 15px;
+    height: 15px;
+}
+
+span#ckbox{
+    padding-right: 30px;
+    color: #8C8C8C;
+    font-size: 15.3px;
+
+}
+
+a#help {
+    font-size: 15.3px;
+    text-decoration: none;
+    color: #8C8C8C;
+    padding-left: 16px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+::placeholder {
+    text-align: start;
+    font-size: 17px;
+    color: #686868; 
+}

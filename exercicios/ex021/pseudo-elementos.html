@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos</title>
+    <style>
+        body {
+            font: normal 1em Arial, helvetica, sans-serif;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #ff0000
+        }
+
+        a:visited {
+            color: #8b0000;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .especial::before {
+            content: '>>';
+            font-weight: lighter;
+        }
+
+        .especial::after {
+            content: '<<';
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para aprender HTML5 e css3, acesse o <a href="https://gustavoguanabara.github.io/" target="_blank">GitHub do Guanabara</a>
+    </p>
+    <p>
+        Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3c.br/" target="_blank">Escritório do W3C no brasil</a>
+    </p>
+    <p>
+        Para acompanhar os cursos, acesse o <a class="especial" href="https://www.youtube.com/@CursoemVideo" target="_blank">canal do curso em video</a>
+    </p>
+</body>
+</html>
