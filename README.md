@@ -6,3 +6,5 @@
 <a href="https://mrbug1.github.io/html-css/exercicios/ex100/index.html"> Como surgiu o mascote do android</a>
 
 <a href="https://mrbug1.github.io/html-css/projetos/Metflix/index.html"> Metflix</a>
+
+<a href="https://mrbug1.github.io/html-css/projetos/cordelmoderno/index.html">Cordel Moderno</a>
