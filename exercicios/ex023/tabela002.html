@@ -12,6 +12,7 @@
 
         table {
             width: 500px;
+            position: relative;
         }
 
         td, th {
@@ -20,9 +21,30 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(136, 134, 134);
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -35,6 +57,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPITON titulo da tabela
                 THEAD
                     TR, TD, TH
                 TBODY
@@ -44,10 +67,11 @@
     -->
 
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -92,16 +116,118 @@
                 <td>Santa Catarina</td>
                 <td class="num">7.609.601</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do sul</td>
+                <td class="num">10.880.506	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.791.688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.116.132</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.609.601</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.443.208</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do sul</td>
+                <td class="num">10.880.506	</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.058.155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.791.688</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.791.688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.116.132</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.609.601</td>
+            </tr>
 
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>152548002</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p> 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam sunt. At, maiores delectus? Quia labore deserunt neque aliquam nesciunt. Velit, sint. Quas, eos officiis dolore blanditiis ullam fuga nesciunt dignissimos soluta qui rerum laborum a laboriosam possimus. Corrupti necessitatibus corporis modi unde. Itaque accusantium reprehenderit odio id quod, molestiae rem eius libero nam assumenda totam qui voluptate ad minima ipsam, cum, officia aliquid? Ab nemo consequuntur accusamus in numquam libero velit quasi voluptatibus. Nihil quia, veniam error ipsam deserunt accusamus assumenda iusto, atque commodi, laudantium consequatur. Est cumque ipsam harum iusto eius voluptas eum. Et id culpa ab nisi temporibus fugiat voluptate voluptatum distinctio non cumque tempore dolorem reprehenderit veritatis rem molestias minima, dicta cum officia similique voluptates natus. Reprehenderit sunt saepe itaque magnam sequi impedit, suscipit porro vel!</p>
     
 </body>
 </html>
