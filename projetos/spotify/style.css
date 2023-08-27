@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    box-shadow: 0px;
+    border: none;
+}
+
+
+header {
+    background-color: red;
+    max-width: 400px;
+    min-height: 130px;
+ }
+
+ article {
+    
+ }
+
+ table {
+    padding-bottom: 650px;
+    width: 400px;
+    background-color: yellow;
+ }
+
+ thead {
+    background-color: green;
+ }
+
+ footer {
+    background-color: green;
+    padding: 41px;
+ }
