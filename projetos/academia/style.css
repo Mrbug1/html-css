@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(imagens/img5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+    font-size: 1.1em;
+    transition: transform 3.5s ease;
+    
+}
+
+#logo {
+
+    padding-left: 6rem;
+    padding-right: 8em;
+    
+}
+
+.detalhe {
+    padding-left: 4em;
+}
