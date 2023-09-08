@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+}
+
+:root {
+    font-family: 'Metflix Sans', 'Helvetica Neue';
+}
+
+@font-face {
+    font-family: 'Metflix';
+    src: url(fonts/NetflixSans-Regular.otf) format('opentype');
+}
+
+body {
+    background-size: cover;
+    background: url(asserts/full.png) black;
+    font-family: 'Metflix';
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+main > img {
+    padding: 10px 40px;
+    width: 230px;
+}
+
+section {
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 72%;
+    width: 448px;
+    background-color: #030402cc;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+section > h1 {
+    color: white;
+    text-align: left;
+    padding-top: 86px;
+    font-size: 2.2em;
+    padding-bottom: 18px;
+}
+
+input {
+    margin-bottom: 14px;
+    width: 340px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #333333;
+    font-size: larger;
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+input#submit {
+    color: #ffffff;
+    background-color: #E50A15;
+    font-size: larger;
+    margin-top: 25px;
+    width: 344px;
+    height: 50px;
+}
+
+input#checkbox {
+    width: 20px;
+    font-size: small;
+}
