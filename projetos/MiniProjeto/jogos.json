@@ -1,0 +1,66 @@
+[
+    {
+        "nome" : "Among Us",
+        "imagem" : "imgs/Among_Us.jpg"
+    },
+
+    {
+        "nome" : "crossing",
+        "imagem" : "imgs/animal-crossing-new-horizons.avif"
+    },
+
+    {
+        "nome" : "Call of Duty MW2",
+        "imagem" : "imgs/cod mw2.jpg"
+
+    },
+
+    {
+        "nome" : "Red Dead Redemption 2",
+        "imagem" : "imgs/red_ded.jpg"
+    },
+
+    {
+        "nome" : "Call of Duty War Zone",
+        "imagem" : "imgs/warzone.jpg"
+    },
+
+    {
+        "nome" : " Need for Speed Most Wanted",
+        "imagem" : "imgs/NFSD.jpg"
+    },
+
+    {
+        "nome" : "Minecraft",
+        "imagem" : "imgs/Minecraft.jpg"
+    },
+
+    {
+        "nome" : "Rocket League",
+        "imagem" : "imgs/Rocket_league.jpg"
+    },
+    
+    {
+        "nome" : "cyberpunk 2077",
+        "imagem" : "imgs/ciberpunk.jpg"
+    },
+
+    {
+        "nome" : "Zelda Breath of the Wild",
+        "imagem" : "imgs/zelda-breath.jpg"
+
+    },
+
+    
+    {
+        "nome" : "Forza Horizon 5",
+        "imagem" : "imgs/forza.jpg"
+
+    },
+
+    {
+        "nome" : "Transformers Rice of the Dark",
+        "imagem" : "imgs/transforme.jpg"
+
+    }
+]
