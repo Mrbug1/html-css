@@ -11,3 +11,5 @@
 
 <a href="https://mrbug1.github.io/html-css/projetos/previsao/index.html">Previsão do tempo</a>
 
+<a href="https://mrbug1.github.io/html-css/projetos/MiniProjeto/loginPage/login.html">Mini Projeto</a>
+
