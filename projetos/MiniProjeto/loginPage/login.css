@@ -179,49 +179,26 @@ body {
   }
 }
 
-@keyframes click {
-  0% {
-    border-bottom: 0.3em solid #ffffff;
-  }
+@media (max-width: 720px) {
 
-  25% {
-    border-bottom: 0.3em solid #ff9595;
-    
-  }
-
-  50% {
-        border-bottom: 0.3em solid #fd6a6a;
-
-  }
-
-  75% {
-        border-bottom: 0.3em solid #ff3d3d;
-    
-  }
-
-  100% {
-        border-bottom: 0.3em solid #ff1f1f;
-  }
-}
-
-@media (max-width: 768px) {
     body {
-        background-image: url(../imgs/fundo720.jpg);
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
+        display: block;
         overflow: hidden;
+    }
+ 
+    .conteiner{
+        display: flex;
+        width: 100vh;
+        height: 100vh;
+        justify-content: center;
     }
 
     .centro {
-        
-        background-color: #0011ffab;
+        margin-top: 3em;
+        background-color: #000000da;
         border-radius: 10px;
-        height: 100vh;
+        width: 30em;
+        height: 50em;
         position: relative;
         color: #ffffff;
         box-shadow: 0 0 10px rgba(0, 0, 0, .2);  
