@@ -179,6 +179,31 @@ body {
   }
 }
 
+@keyframes click {
+  0% {
+    border-bottom: 0.3em solid #ffffff;
+  }
+
+  25% {
+    border-bottom: 0.3em solid #ff9595;
+    
+  }
+
+  50% {
+        border-bottom: 0.3em solid #fd6a6a;
+
+  }
+
+  75% {
+        border-bottom: 0.3em solid #ff3d3d;
+    
+  }
+
+  100% {
+        border-bottom: 0.3em solid #ff1f1f;
+  }
+}
+
 @media (max-width: 768px) {
     body {
         background-image: url(../imgs/fundo720.jpg);
@@ -189,6 +214,7 @@ body {
         align-items: center;
         width: 100vw;
         height: 100vh;
+        overflow: hidden;
     }
 
     .centro {
